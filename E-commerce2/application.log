@@ -1,0 +1,30 @@
+2020-08-22 22:40:16,710  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:40:27,103  INFO [main] BaseClass:30 - login with--invalid--credentials
+2020-08-22 22:40:39,735  INFO [main] BaseClass:59 - User are not able to login with invalid credentials
+2020-08-22 22:40:48,239  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:40:57,949  INFO [main] BaseClass:30 - login with--invalid--credentials
+2020-08-22 22:41:08,357  INFO [main] BaseClass:59 - User are not able to login with invalid credentials
+2020-08-22 22:41:16,742  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:41:27,251  INFO [main] BaseClass:30 - login with--invalid--credentials
+2020-08-22 22:41:41,099  INFO [main] BaseClass:59 - User are not able to login with invalid credentials
+2020-08-22 22:41:48,736  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:42:00,168  INFO [main] BaseClass:30 - login with--valid--credentials
+2020-08-22 22:42:11,723  INFO [main] BaseClass:68 - User are allowed to login successfully with meassge   Your login is successfully completed.
+2020-08-22 22:42:18,639  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:42:28,294  INFO [main] BaseClass:38 - signup  when-->all fiels are filled
+2020-08-22 22:42:45,707  INFO [main] BaseClass:66 - validation is started
+2020-08-22 22:42:46,808  INFO [main] BaseClass:74 - User are successfully registered with message-->   Thank you for registering with Vikreya. Please check your email to complete the registration and proceed with login.
+2020-08-22 22:42:54,143  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:43:03,288  INFO [main] BaseClass:38 - signup  when-->refferal option is not selected
+2020-08-22 22:43:13,690  INFO [main] BaseClass:66 - validation is started
+2020-08-22 22:43:13,780  INFO [main] BaseClass:80 - There is some error. Please look Screenshots
+2020-08-22 22:43:21,854  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:43:31,650  INFO [main] BaseClass:38 - signup  when-->empty mail id
+2020-08-22 22:43:47,525  INFO [main] BaseClass:66 - validation is started
+2020-08-22 22:43:47,659  INFO [main] BaseClass:80 - There is some error. Please look Screenshots
+2020-08-22 22:43:55,639  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:44:07,655  INFO [main] BaseClass:38 - signup  when-->empty firstname,lastname,state
+2020-08-22 22:44:23,058  INFO [main] BaseClass:66 - validation is started
+2020-08-22 22:44:23,735  INFO [main] BaseClass:74 - User are successfully registered with message-->   Thank you for registering with Vikreya. Please check your email to complete the registration and proceed with login.
+2020-08-22 22:44:29,835  INFO [main] BaseClass:57 - browser start
+2020-08-22 22:44:50,354  INFO [main] BaseClass:28 - home page verified
