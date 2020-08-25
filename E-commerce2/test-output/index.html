@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.Login_TestCases" class="method navigator-link" hash-for-method="loginVerified">loginVerified</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Registration_testcase" class="method navigator-link" hash-for-method="registration(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state)">registration(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.HomePage_Testcases" class="method navigator-link" hash-for-method="verifyhomepagetitle">verifyhomepagetitle</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Registration_testcase" class="method navigator-link" hash-for-method="registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled)">registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Registration_testcase" class="method navigator-link" hash-for-method="registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected)">registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Registration_testcase" class="method navigator-link" hash-for-method="registration(, password, password, nik, kapoor, co, 80231, empty mail id)">registration(, password, password, nik, kapoor, co, 80231, empty mail id)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,44 +132,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Testcases.HomePage_Testcases</span>
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Registration_testcase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyhomepagetitle">
-                  </a> <!-- verifyhomepagetitle -->
-                  <span class="method-name">verifyhomepagetitle</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at Utilities.ExtentReporting.onTestSuccess(ExtentReporting.java:53)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                  <a name="registration(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state)">
+                  </a> <!-- registration(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Testcases.Login_TestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginVerified">
-                  </a> <!-- loginVerified -->
-                  <span class="method-name">loginVerified</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at Utilities.ExtentReporting.onTestSuccess(ExtentReporting.java:53)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                  <a name="registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled)">
+                  </a> <!-- registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected)">
+                  </a> <!-- registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration(, password, password, nik, kapoor, co, 80231, empty mail id)">
+                  </a> <!-- registration(, password, password, nik, kapoor, co, 80231, empty mail id) -->
+                  <span class="method-name">registration</span>
+                  <span class="parameters">(, password, password, nik, kapoor, co, 80231, empty mail id)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -176,8 +188,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test-1&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Testcases.Login_TestCases&quot;/&gt;
-      &lt;class name=&quot;Testcases.HomePage_Testcases&quot;/&gt;
+      &lt;class name=&quot;Testcases.Registration_testcase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test-1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -191,7 +202,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test-1 (2 classes)</span>
+                <span class="test-name">Test-1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,15 +228,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyhomepagetitle')
-data.setCell(0, 2, 'Testcases.HomePage_Testcases')
-data.setCell(0, 3, 34818);
+data.setCell(0, 1, 'registration')
+data.setCell(0, 2, 'Testcases.Registration_testcase')
+data.setCell(0, 3, 26088);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginVerified')
-data.setCell(1, 2, 'Testcases.Login_TestCases')
-data.setCell(1, 3, 25832);
+data.setCell(1, 1, 'registration')
+data.setCell(1, 2, 'Testcases.Registration_testcase')
+data.setCell(1, 3, 23361);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registration')
+data.setCell(2, 2, 'Testcases.Registration_testcase')
+data.setCell(2, 3, 19726);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registration')
+data.setCell(3, 2, 'Testcases.Registration_testcase')
+data.setCell(3, 3, 15401);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -256,38 +275,71 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Testcases.Login_TestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Testcases.Registration_testcase</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">15940 ms</span>
+                <span class="method-name">regis</span>
+                <span class="method-start">34067 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginVerified(kapoor.nikita5455@gmail.com, , invalid)</span>
-                <span class="method-start">16037 ms</span>
+                <span class="method-name">registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, all fiels are filled)</span>
+                <span class="method-start">34279 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">mail</span>
-                <span class="method-start">24064 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Testcases.HomePage_Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">63768 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">28689 ms</span>
+                <span class="method-start">69400 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">49063 ms</span>
+                <span class="method-name">regis</span>
+                <span class="method-start">90468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyhomepagetitle</span>
-                <span class="method-start">63467 ms</span>
+                <span class="method-name">registration(PGtl@gmail.com, password, password, nik, kapoor, co, 80231, refferal option is not selected)</span>
+                <span class="method-start">90471 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">107841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">113025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">regis</span>
+                <span class="method-start">134384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration(, password, password, nik, kapoor, co, 80231, empty mail id)</span>
+                <span class="method-start">134387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">158271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">183437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">regis</span>
+                <span class="method-start">207740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration(bKhP@gmail.com, password, password, , , , , empty firstname,lastname,state)</span>
+                <span class="method-start">207742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">228251 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

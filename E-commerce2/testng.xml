@@ -6,14 +6,13 @@
       </listeners>
       
   <test thread-count="5" name="Test-1">
-   <parameter name="browser" value="chrome">
+     <parameter name="browser" value="chrome">
   
-  </parameter>
-    <classes>
-      
-      <class name="Testcases.Login_TestCases"/>
-      <!-- class name="Testcases.Registration_testcase"/>  -->
-      <class name="Testcases.HomePage_Testcases"/> 
+       </parameter>
+        <classes>  
+      <!-- class name="Testcases.Login_TestCases"/> -->
+      <class name="Testcases.Registration_testcase"/> 
+      <!-- class name="Testcases.HomePage_Testcases"/> --> 
      
     </classes>
   </test> <!-- Test -->

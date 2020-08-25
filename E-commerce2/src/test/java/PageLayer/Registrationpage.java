@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import Testcases.BaseClass;
 
 public class Registrationpage extends BaseClass

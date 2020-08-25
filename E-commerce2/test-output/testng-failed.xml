@@ -7,23 +7,14 @@
   <test thread-count="5" name="Test-1(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Testcases.HomePage_Testcases">
+      <class name="Testcases.Registration_testcase">
         <methods>
-          <include name="verifyhomepagetitle"/>
-          <include name="login"/>
-          <include name="teardown"/>
+          <include name="registration"/>
+          <include name="regis"/>
           <include name="setup"/>
-        </methods>
-      </class> <!-- Testcases.HomePage_Testcases -->
-      <class name="Testcases.Login_TestCases">
-        <methods>
-          <include name="mail"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="loginVerified"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Testcases.Login_TestCases -->
+      </class> <!-- Testcases.Registration_testcase -->
     </classes>
   </test> <!-- Test-1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -13,13 +13,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import PageLayer.Homepage;
 import PageLayer.LoginPage;
 import PageLayer.Registrationpage;
 import TestData.Gettestdata;
 import TestData.Gettestdataforreg;
 
-public class Registration_testcase extends BaseClass
+public class Registration_testcase extends BaseClass 
 {
 	Registrationpage reg;
 	String     email;
@@ -28,6 +30,7 @@ public class Registration_testcase extends BaseClass
 	@BeforeMethod
 	public void regis()
 	{
+		
 		reg= new Registrationpage(driver);
 		     
 	}
