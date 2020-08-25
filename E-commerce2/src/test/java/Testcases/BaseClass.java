@@ -63,13 +63,13 @@ public void setup(String br)
 	
 	
 }
-@AfterClass
+
+@AfterMethod
 public void teardown() throws Exception
-{
-	EmailUtil.sendemail();
-	driver.close();
+   {
 	
 	log.info("browser close");
+	
 	}
 
 

@@ -22,9 +22,9 @@ public class ExtentReporting extends TestListenerAdapter
 		
 	public ExtentHtmlReporter htmlreporter;
 	public ExtentReports extent;
-	public ExtentTest logger;
+	public ExtentTest logger; 
 
-	@Parameters({ "Testname" })
+	
 	public void onStart(ITestContext testcontext,String Testname)
 	{
 		String timestramp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
@@ -84,9 +84,6 @@ public class ExtentReporting extends TestListenerAdapter
 	logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
 
 	}
-
-
-
 
 	}
 

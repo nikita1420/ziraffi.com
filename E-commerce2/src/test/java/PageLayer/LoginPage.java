@@ -38,7 +38,7 @@ WebDriver driver;
 	
 	public void testDatalogin(String uname1, String password1,String type1) throws InterruptedException
 	{  
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		login.click();
 		email.sendKeys(uname1);
 		pass.sendKeys(password1);

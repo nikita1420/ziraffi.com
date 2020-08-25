@@ -1,214 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-23T04:40:03Z" name="Suite" finished-at="2020-08-23T04:44:50Z" duration-ms="286855">
+  <suite started-at="2020-08-25T00:46:26Z" name="Suite" finished-at="2020-08-25T00:47:31Z" duration-ms="65338">
     <groups>
     </groups>
-    <test started-at="2020-08-23T04:40:03Z" name="Test-1" finished-at="2020-08-23T04:44:50Z" duration-ms="286855">
+    <test started-at="2020-08-25T00:46:26Z" name="Test-1" finished-at="2020-08-25T00:47:31Z" duration-ms="65338">
       <class name="Testcases.Login_TestCases">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:07Z" name="setup" finished-at="2020-08-23T04:40:26Z" duration-ms="19415" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:26Z" name="setup" finished-at="2020-08-23T04:40:27Z" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:27Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-08-23T04:40:39Z" duration-ms="12646" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kapoor.nikita5455@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginVerified -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:39Z" name="teardown" finished-at="2020-08-23T04:40:42Z" duration-ms="3160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:42Z" name="setup" finished-at="2020-08-23T04:40:57Z" duration-ms="15030" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:57Z" name="setup" finished-at="2020-08-23T04:40:57Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:40:57Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-08-23T04:41:08Z" duration-ms="10425" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[angel12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginVerified -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:08Z" name="teardown" finished-at="2020-08-23T04:41:11Z" duration-ms="3595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:11Z" name="setup" finished-at="2020-08-23T04:41:27Z" duration-ms="15285" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:27Z" name="setup" finished-at="2020-08-23T04:41:27Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:27Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-08-23T04:41:41Z" duration-ms="13857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kapoor.nikita5455@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalidpassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginVerified -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:41Z" name="teardown" finished-at="2020-08-23T04:41:42Z" duration-ms="1842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:41:42Z" name="setup" finished-at="2020-08-23T04:42:00Z" duration-ms="17203" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:42:00Z" name="setup" finished-at="2020-08-23T04:42:00Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:42:00Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-08-23T04:42:11Z" duration-ms="11564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kapoor.nikita5455@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginVerified -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@3e11f9e9]" started-at="2020-08-23T04:42:11Z" name="teardown" finished-at="2020-08-23T04:42:13Z" duration-ms="2224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.Login_TestCases -->
-      <class name="Testcases.HomePage_Testcases">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.HomePage_Testcases@729d991e]" started-at="2020-08-23T04:44:25Z" name="setup" finished-at="2020-08-23T04:44:42Z" duration-ms="16908" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Testcases.HomePage_Testcases@729d991e]" started-at="2020-08-23T04:44:42Z" name="login" finished-at="2020-08-23T04:44:50Z" duration-ms="7800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="verifyhomepagetitle()[pri:0, instance:Testcases.HomePage_Testcases@729d991e]" started-at="2020-08-23T04:44:50Z" name="verifyhomepagetitle" finished-at="2020-08-23T04:44:50Z" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhomepagetitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.HomePage_Testcases@729d991e]" started-at="2020-08-23T04:44:50Z" name="teardown" finished-at="2020-08-23T04:44:50Z" duration-ms="198" status="FAIL">
-          <exception class="org.apache.commons.mail.EmailException">
-            <message>
-              <![CDATA[Cannot attach file "test-output\emailable-report.html"]]>
-            </message>
+        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@316bcf94]" started-at="2020-08-25T00:46:26Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-08-25T00:46:52Z" duration-ms="25832" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.apache.commons.mail.EmailException: Cannot attach file "test-output\emailable-report.html"
-at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:333)
-at Utilities.EmailUtil.sendemail(EmailUtil.java:39)
-at Testcases.BaseClass.teardown(BaseClass.java:69)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+              <![CDATA[java.lang.NullPointerException
+at Utilities.ExtentReporting.onTestSuccess(ExtentReporting.java:53)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -224,278 +34,82 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.IOException: "test-output\emailable-report.html" does not exist
-at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:322)
-... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.apache.commons.mail.EmailException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- loginVerified -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@316bcf94]" started-at="2020-08-25T00:46:27Z" name="setup" finished-at="2020-08-25T00:46:43Z" duration-ms="15940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@316bcf94]" started-at="2020-08-25T00:46:43Z" name="setup" finished-at="2020-08-25T00:46:44Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="mail()[pri:0, instance:Testcases.Login_TestCases@316bcf94]" started-at="2020-08-25T00:46:52Z" name="mail" finished-at="2020-08-25T00:46:56Z" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+      </class> <!-- Testcases.Login_TestCases -->
+      <class name="Testcases.HomePage_Testcases">
+        <test-method signature="verifyhomepagetitle()[pri:0, instance:Testcases.HomePage_Testcases@6404f418]" started-at="2020-08-25T00:46:56Z" name="verifyhomepagetitle" finished-at="2020-08-25T00:47:31Z" duration-ms="34818" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Utilities.ExtentReporting.onTestSuccess(ExtentReporting.java:53)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetitle -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.HomePage_Testcases@6404f418]" started-at="2020-08-25T00:46:56Z" name="setup" finished-at="2020-08-25T00:47:17Z" duration-ms="20374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Testcases.HomePage_Testcases@6404f418]" started-at="2020-08-25T00:47:17Z" name="login" finished-at="2020-08-25T00:47:31Z" duration-ms="14404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
       </class> <!-- Testcases.HomePage_Testcases -->
-      <class name="Testcases.Registration_testcase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:42:13Z" name="setup" finished-at="2020-08-23T04:42:28Z" duration-ms="14297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:42:28Z" name="regis" finished-at="2020-08-23T04:42:28Z" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:42:28Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-23T04:42:46Z" duration-ms="18520" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[HiHY@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[all fiels are filled]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:42:46Z" name="teardown" finished-at="2020-08-23T04:42:49Z" duration-ms="2551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:42:49Z" name="setup" finished-at="2020-08-23T04:43:03Z" duration-ms="13912" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:03Z" name="regis" finished-at="2020-08-23T04:43:03Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:03Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-23T04:43:14Z" duration-ms="11410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[HiHY@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[refferal option is not selected]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:14Z" name="teardown" finished-at="2020-08-23T04:43:16Z" duration-ms="2069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:16Z" name="setup" finished-at="2020-08-23T04:43:31Z" duration-ms="14868" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:31Z" name="regis" finished-at="2020-08-23T04:43:31Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:31Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-23T04:43:48Z" duration-ms="16990" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[empty mail id]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:48Z" name="teardown" finished-at="2020-08-23T04:43:51Z" duration-ms="2374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:43:51Z" name="setup" finished-at="2020-08-23T04:44:07Z" duration-ms="16632" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:44:07Z" name="regis" finished-at="2020-08-23T04:44:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:44:07Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-23T04:44:23Z" duration-ms="16082" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RtCc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[empty firstname,lastname,state]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@1de5f259]" started-at="2020-08-23T04:44:23Z" name="teardown" finished-at="2020-08-23T04:44:25Z" duration-ms="1875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.Registration_testcase -->
     </test> <!-- Test-1 -->
   </suite> <!-- Suite -->
 </testng-results>

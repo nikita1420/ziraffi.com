@@ -7,8 +7,10 @@ import org.apache.commons.mail.MultiPartEmail;
 import org.apache.commons.mail.SimpleEmail;
 import org.testng.annotations.Test;
 
+import Testcases.BaseClass;
 
-public class EmailUtil
+
+public class EmailUtil 
 {       
 	
 	@Test
