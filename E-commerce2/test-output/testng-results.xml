@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-25T05:01:10Z" name="Suite" finished-at="2020-08-25T05:05:04Z" duration-ms="233914">
+  <suite started-at="2020-09-25T01:32:38Z" name="Login Suit" finished-at="2020-09-25T01:34:54Z" duration-ms="136048">
     <groups>
     </groups>
-    <test started-at="2020-08-25T05:01:10Z" name="Test-1" finished-at="2020-08-25T05:05:04Z" duration-ms="233914">
-      <class name="Testcases.Registration_testcase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:01:11Z" name="setup" finished-at="2020-08-25T05:01:46Z" duration-ms="34066" status="PASS">
+    <test started-at="2020-09-25T01:32:38Z" name="Loginpage" finished-at="2020-09-25T01:34:54Z" duration-ms="136048">
+      <class name="Testcases.Login_TestCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:32:41Z" name="setup" finished-at="2020-09-25T01:33:08Z" duration-ms="27716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,61 +18,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:01:46Z" name="regis" finished-at="2020-08-25T05:01:46Z" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:08Z" name="setup" finished-at="2020-09-25T01:33:08Z" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:01:46Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-25T05:02:12Z" duration-ms="26088" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:08Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-09-25T01:33:20Z" duration-ms="11789" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[PGtl@gmail.com]]>
+                <![CDATA[kapoor.nikita5455@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[all fiels are filled]]>
+                <![CDATA[blank]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:02:15Z" name="teardown" finished-at="2020-08-25T05:02:21Z" duration-ms="5631" status="PASS">
+        </test-method> <!-- loginVerified -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:24Z" name="teardown" finished-at="2020-09-25T01:33:26Z" duration-ms="1677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:02:21Z" name="setup" finished-at="2020-08-25T05:02:42Z" duration-ms="21068" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:26Z" name="setup" finished-at="2020-09-25T01:33:40Z" duration-ms="14884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,61 +58,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:02:42Z" name="regis" finished-at="2020-08-25T05:02:42Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:40Z" name="setup" finished-at="2020-09-25T01:33:40Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:02:42Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-25T05:02:57Z" duration-ms="15401" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:40Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-09-25T01:33:47Z" duration-ms="6211" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[PGtl@gmail.com]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[angel12345]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[refferal option is not selected]]>
+                <![CDATA[blank]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:02:59Z" name="teardown" finished-at="2020-08-25T05:03:04Z" duration-ms="5182" status="PASS">
+        </test-method> <!-- loginVerified -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:47Z" name="teardown" finished-at="2020-09-25T01:33:50Z" duration-ms="2266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:03:04Z" name="setup" finished-at="2020-08-25T05:03:26Z" duration-ms="21359" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:33:50Z" name="setup" finished-at="2020-09-25T01:34:04Z" duration-ms="14449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,61 +98,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:03:26Z" name="regis" finished-at="2020-08-25T05:03:26Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:04Z" name="setup" finished-at="2020-09-25T01:34:04Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:03:26Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-25T05:03:49Z" duration-ms="23361" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:04Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-09-25T01:34:16Z" duration-ms="11834" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[kapoor.nikita5455@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[invalidpassword]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nik]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kapoor]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[co]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[80231]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[empty mail id]]>
+                <![CDATA[invalid]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:03:50Z" name="teardown" finished-at="2020-08-25T05:04:15Z" duration-ms="25113" status="PASS">
+        </test-method> <!-- loginVerified -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:16Z" name="teardown" finished-at="2020-09-25T01:34:18Z" duration-ms="1681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:04:15Z" name="setup" finished-at="2020-08-25T05:04:39Z" duration-ms="24303" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:18Z" name="setup" finished-at="2020-09-25T01:34:36Z" duration-ms="17924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,61 +138,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="regis()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:04:39Z" name="regis" finished-at="2020-08-25T05:04:39Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:36Z" name="setup" finished-at="2020-09-25T01:34:36Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regis -->
-        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:04:39Z" name="registration" data-provider="exceltestdata2" finished-at="2020-08-25T05:04:59Z" duration-ms="19726" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="loginVerified(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:36Z" name="loginVerified" data-provider="exceltestdata" finished-at="2020-09-25T01:34:47Z" duration-ms="10559" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[bKhP@gmail.com]]>
+                <![CDATA[invalid.email@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[password@12345]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[empty firstname,lastname,state]]>
+                <![CDATA[invalid]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Registration_testcase@17497425]" started-at="2020-08-25T05:05:00Z" name="teardown" finished-at="2020-08-25T05:05:04Z" duration-ms="4506" status="PASS">
+        </test-method> <!-- loginVerified -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:47Z" name="teardown" finished-at="2020-09-25T01:34:48Z" duration-ms="1356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Testcases.Registration_testcase -->
-    </test> <!-- Test-1 -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="mail()[pri:0, instance:Testcases.Login_TestCases@4dbb42b7]" started-at="2020-09-25T01:34:48Z" name="mail" finished-at="2020-09-25T01:34:54Z" duration-ms="5404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+      </class> <!-- Testcases.Login_TestCases -->
+    </test> <!-- Loginpage -->
+  </suite> <!-- Login Suit -->
 </testng-results>

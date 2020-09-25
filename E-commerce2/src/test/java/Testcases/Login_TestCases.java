@@ -19,6 +19,7 @@ public class Login_TestCases  extends BaseClass
 {
 	LoginPage loginpage;
 	
+	
 	@BeforeMethod
 	public void setup()
 	{
@@ -35,12 +36,10 @@ public class Login_TestCases  extends BaseClass
 	
 	 }
 
-	
 	@DataProvider(name="exceltestdata")
 	public Iterator<Object[]> testData()
 	{ 
-		
-				ArrayList<Object[]> testdata= Gettestdata.getdatafromExcel();
+		ArrayList<Object[]> testdata= Gettestdata.getdatafromExcel();
 		return testdata.iterator() ;
 		
 	}

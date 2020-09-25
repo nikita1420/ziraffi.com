@@ -32,10 +32,10 @@ public class EmailUtil
 	email.setSmtpPort(465);
 	email.setAuthenticator(new DefaultAuthenticator("ziraffitesting@gmail.com","test@12345"));
 	email.setSSLOnConnect(true);
-	email.setFrom("kapoor.nikita5455@gmail.com");
+	email.setFrom("ziraffitesting@gmail.com");
 	email.setSubject("TestMail");
 	email.setMsg("This is a test mail ... :-)");
-	email.addTo("angelkhanna1420@gmail.com");
+	email.addTo("nikitakapoor1420@gmail.com");
 	
 	// add the attachment
 	  email.attach(attachment);

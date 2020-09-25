@@ -34,5 +34,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mayan/.p2/pool/plugins/org.testng_6.14.3.r201802240500.jar" sourcepath="C:/Users/mayan/.p2/pool/plugins/org.testng.source_6.14.3.r201802240500.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

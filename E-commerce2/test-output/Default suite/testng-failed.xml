@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Utilities.EmailUtil">
+      <class name="Testcases.Login_TestCases">
         <methods>
-          <include name="teardown"/>
+          <include name="mail"/>
           <include name="setup"/>
-          <include name="sendemail"/>
+          <include name="setup"/>
+          <include name="loginVerified"/>
         </methods>
-      </class> <!-- Utilities.EmailUtil -->
+      </class> <!-- Testcases.Login_TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

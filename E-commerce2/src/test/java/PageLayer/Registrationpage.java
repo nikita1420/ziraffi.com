@@ -11,6 +11,7 @@ import org.testng.Assert;
 import com.aventstack.extentreports.ExtentTest;
 
 import Testcases.BaseClass;
+import Utilities.ScreenShot;
 
 public class Registrationpage extends BaseClass
 {
@@ -81,6 +82,7 @@ WebDriver driver;
 	  {
 		  log.info("There is some error. Please look Screenshots");
 		  captureScreenShot(driver,type2);
+		  //ScreenShot.captureScreenShot(driver, type2);
 	  }
 	
 	

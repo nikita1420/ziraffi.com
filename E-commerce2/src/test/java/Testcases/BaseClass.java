@@ -29,12 +29,15 @@ import Utilities.EmailUtil;
 public class BaseClass 
 {
 	public static WebDriver driver;
+	
 	public static WebDriverWait wait;
 	public static WebElement element; 
-   public String  url="http://139.59.15.212:8000/Home ";
-    public static Logger log = Logger.getLogger(BaseClass.class);
+   public String  url          ="http://139.59.15.212:8000/Home ";
+    public static Logger log  = Logger.getLogger(BaseClass.class);
+    public String username    ="kapoor.nikita5455@gmail.com";
+	public String password     ="Password@12345";
 
-//public static Logger log = Logger.getLogger(BaseClass.class);
+
 
 
 @Parameters("browser")
@@ -43,14 +46,14 @@ public void setup(String br)
 {
 	if(br.equalsIgnoreCase("chrome"))
 	{
-		 System.setProperty("webdriver.chrome.driver","C:\\Nikita\\workspace\\E-Commerce\\Drivers\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver","C:\\Users\\mayan\\git\\ziraffi.com\\E-commerce2\\Drivers\\chromedriver.exe");
 		    driver=new ChromeDriver();
 		
 	}
 	else if(br.equalsIgnoreCase("firefox"))
 	{
 		
-		 System.setProperty("webdriver.gecko.driver","C:\\Nikita\\workspace\\E-Commerce\\Drivers\\geckodriver.exe");
+		 System.setProperty("webdriver.gecko.driver","C:\\Users\\mayan\\git\\ziraffi.com\\E-commerce2\\Drivers\\geckodriver.exe");
 		    driver=new FirefoxDriver();
 	}
 
@@ -100,6 +103,7 @@ catch (Exception e)
 }
 
 }
+
 
 public static String randomstring()
 {

@@ -12,7 +12,8 @@ public class Homepage extends BaseClass
 WebDriver driver;
 	
 
-	public Homepage(WebDriver driver1) {
+	public Homepage(WebDriver driver1) 
+	{
 		driver=driver1;
 		PageFactory.initElements(driver1, this);
 	}
